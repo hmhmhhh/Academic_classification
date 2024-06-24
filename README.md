@@ -131,7 +131,7 @@ Grade of previous qualification (between 0 and 200)
 22 - 技術専門課程  
 39 - 技術専門課程  
  
-### 職業
+### 職業　　
 0 - 学生  
 1 - 立法府および行政機関の代表、役員、取締役および経営幹部  
 2 - 知的および科学的活動の専門家  
@@ -164,4 +164,33 @@ Grade of previous qualification (between 0 and 200)
 192 - 農業、動物生 産、漁業および林業の無資格労働者  
 193 - 採掘業、建設業、製造業および輸送業の無資格労働者  
 194 - 食事の準備アシスタント  
+
+### 職業  
+| Feature                                       | Continuous | 説明                                                    |
+|-----------------------------------------------|------------|----------------------------------------------------------|
+| Admission grade                               | Integer    | 入学成績 (0から200の間)                                   |
+| Displaced                                     | Integer    | 転校生                                                    |
+| Educational special needs                     | Integer    | 特別な教育ニーズ                                            |
+| Debtor                                        | Integer    | 債務者                                                    |
+| Tuition fees up to date                       | Integer    | 授業料の支払いが完了しているかどうか                            |
+| Gender                                        | Integer    | 性別                                                     |
+| Scholarship holder                            | Integer    | 奨学金の受給者                                               |
+| Age at enrollment                             | Integer    | 入学時の年齢                                                |
+| International                                 | Integer    | 国際学生                                                  |
+| Curricular units 1st sem (credited)           | Integer    | 1学期に認定されたカリキュラムユニット数                           |
+| Curricular units 1st sem (enrolled)           | Integer    | 1学期に登録されたカリキュラムユニット数                           |
+| Curricular units 1st sem (evaluations)        | Integer    | 1学期のカリキュラムユニットの評価数                              |
+| Curricular units 1st sem (approved)           | Integer    | 1学期に承認されたカリキュラムユニット数                           |
+| Curricular units 1st sem (grade)              | Integer    | 1学期の成績平均 (0から20の間)                                   |
+| Curricular units 1st sem (without evaluations)| Integer    | 1学期の評価がないカリキュラムユニット数                          |
+| Curricular units 2nd sem (credited)           | Integer    | 2学期に認定されたカリキュラムユニット数                           |
+| Curricular units 2nd sem (enrolled)           | Integer    | 2学期に登録されたカリキュラムユニット数                           |
+| Curricular units 2nd sem (evaluations)        | Integer    | 2学期のカリキュラムユニットの評価数                              |
+| Curricular units 2nd sem (approved)           | Integer    | 2学期に承認されたカリキュラムユニット数                           |
+| Curricular units 2nd sem (grade)              | Integer    | 2学期の成績平均 (0から20の間)                                   |
+| Curricular units 2nd sem (without evaluations)| Integer    | 2学期の評価がないカリキュラムユニット数                          |
+| Unemployment rate                             | Continuous | 失業率 (%)                                                 |
+| Inflation rate                                | Continuous | インフレ率 (%)                                             |
+| GDP                                           | Continuous | GDP                                                      |
+| Target                                        | Categorical| ターゲット。課題は、コースの通常の期間終了時における脱落、在籍、卒業の3つのカテゴリ分類問題として定式化されています。 |
 
