@@ -1,7 +1,7 @@
 # Academic_classification
 
 ### Marital status
-1. **Single**: 独身。
+1. **Single**: 独身。(圧倒的に多い)
 2. **Married**: 既婚。
 3. **Widower**: 配偶者と死別。
 4. **Divorced**: 離婚。
@@ -30,6 +30,7 @@
 
 ### application order 
 Application order (between 0 - first choice; and 9 last choice)  
+
 
 
 ### Course
